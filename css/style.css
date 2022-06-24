@@ -1,0 +1,330 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    font-size: 10px;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #f8f8f8;
+}
+
+/* home-section starts here */
+
+.home-section {
+    width: 100%;
+    min-height: 100vh;
+}
+
+.banner {
+    padding: 282px 0;
+}
+
+.banner h1 {
+    color: #d5c455;
+    text-transform: uppercase;
+    font-size: 4rem;
+    letter-spacing: 0.5px;
+}
+
+.banner h2 {
+    margin: 20px 0;
+    font-size: 3rem;
+}
+
+.banner .first-btn {
+    width: 200px;
+    height: 50px;
+    background-color: #d5c455;
+    border: 0;
+    font-size: 1.6rem;
+}
+.banner .first-btn a{
+    color:#fff;
+    text-decoration:none;
+}
+.banner .second-btn {
+    width: 120px;
+    height: 50px;
+    background-color: #fff;
+    color: #000;
+    border: 0;
+    font-size: 1.6rem;
+}
+
+.banner .second-btn i {
+    color: #000;
+    margin-left: 5px;
+}
+
+.banner .first-btn i {
+    color: #fff;
+    margin-left: 5px;
+    background: none;
+}
+
+#mynavigation {
+    width: 100%;
+    border: 0;
+    position: fixed;
+    z-index: 99;
+    padding: 20px 0px;
+}
+
+#mynavigation a {
+    color: #000;
+    font-size: 1.6rem;
+    margin-top: 5px;
+}
+
+#mynavigation .navbar-brand {
+    font-size: 2.5rem;
+    margin-top: 0;
+}
+
+#mynavigation a span {
+    color: #d5c455;
+    font-size: 2.5rem;
+}
+
+#mynavigation .navbar-toggle {
+    background: none;
+    border: 0;
+}
+
+#mynavigation .navbar-toggle span {
+    background-color: #000;
+}
+
+/* about-section starts here */
+
+.about-section {
+    padding: 100px 0;
+}
+.about-section .black{
+    font-size:3rem;
+    color:#000;
+}
+.about-section .diff-para{
+    line-height:30px;
+    margin-top:20px;
+}
+.about-section h1 {
+    margin: 0px;
+    font-size: 3rem;
+    color: #d5c455;
+}
+
+.about-section .for-gap {
+    margin-top: 60px;
+}
+
+.about-section p,
+span {
+    font-size: 1.6rem;
+}
+
+.about-section span {
+    display: inline-block;
+    width: 110px;
+    height: 50px;
+    background-color: #d5c455;
+    text-align: center;
+    color: #fff;
+    margin: 20px 20px 0px 0px;
+    padding-top: 14.5px;
+}
+
+.about-section .right h2 {
+    margin-top: 30px;
+    font-size:3rem;
+}
+
+/* portfolio-section starts here */
+
+
+.portfolio-section {
+    padding: 75px 0;
+}
+
+.portfolio-section h1 {
+    color: #d5c455;
+    margin-bottom: 60px;
+    font-size: 3rem;
+}
+
+.portfolio-section .fit-img {
+    width: 100%;
+}
+
+.portfolio-section .second {
+    margin: 100px 0px;
+}
+.portfolio-section i{
+    color:#d5c455;
+    margin-right:7px;
+}
+.portfolio-section p{
+    line-height: 25px;
+    font-size:1.6rem;
+}
+.portfolio-section button{
+    width:120px;
+    height:40px;
+    background-color:#d5c455;
+    color:#fff;
+    border:0;
+    margin-top:15px;
+}
+.portfolio-section button a{
+    color:#fff;
+    text-decoration:none;
+    font-size:1.6rem;
+    text-transform: capitalize;
+}
+
+/* contact-section starts here */
+
+
+.contact-section {
+    padding: 75px 0;
+}
+
+.contact-section h1 {
+    color: #d5c455;
+    font-size: 3rem;
+    margin-bottom: 60px;
+}
+
+.contact-section form {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.contact-section form input,
+textarea {
+    width: 100%;
+    border: 1px solid #000;
+    padding: 13px;
+    margin-bottom: 30px;
+    outline: 0;
+}
+.contact-section form input::placeholder{
+    color:#000;
+    font-size:1.6rem;
+}
+.contact-section form textarea::placeholder{
+    color:#000;
+    font-size:1.6rem;
+}
+.contact-section .center-btn {
+    text-align: center;
+}
+
+.contact-section button {
+    width: 170px;
+    height: 50px;
+    border: 0;
+    background-color: #d5c455;
+    color: #fff;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+.contact-section span i {
+    color: red;
+    margin-right: 3px;
+    font-size: 20px;
+}
+
+/* footer-starts here */
+
+
+footer {
+    width: 100%;
+    background-color: #d5c455;
+    color: #000;
+}
+
+footer .footer-inner {
+    padding: 40px 0 30px 0;
+}
+
+footer .footer-inner p {
+    font-size: 1.6rem;
+}
+
+footer .footer-inner p i {
+    font-size: 1.6rem;
+}
+
+footer .footer-inner i {
+    color: #000;
+    font-size: 2rem;
+}
+
+footer .footer-inner span {
+    margin: 0px 10px;
+}
+
+footer .right {
+    text-align: right;
+}
+
+/* media query starts here */
+
+@media only screen and (max-width:1200px) {
+    footer {
+        text-align: center;
+    }
+
+    footer .right {
+        text-align: center;
+        margin-top: 30px;
+    }
+}
+
+@media only screen and (max-width:992px) {
+    .contact-section form {
+        width: 100%;
+    }
+    .about-section .right{
+        margin-top:80px;
+    }
+    .portfolio-section .right{
+        margin-top:50px;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    html {
+        font-size: 8.5px;
+    }
+
+    .banner {
+        padding: 150px 0;
+    }
+
+    .portfolio-section .right{
+        margin-top:50px;
+    }
+}
+
+@media only screen and (max-width:353px) {
+    .about-section span {
+        width: 90px;
+        height: 50px;
+    }
+}
+
+@media only screen and (max-width:323px) {
+    .banner .second-btn {
+        margin-top: 30px;
+    }
+}
